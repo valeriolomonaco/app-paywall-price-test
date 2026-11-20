@@ -1,0 +1,46 @@
+# Chart style for the notebook. Series order: blue, ink, muted, orange, green, red.
+# Bars: pass width=0.85 to ax.bar() for narrow gaps.
+axes.prop_cycle    : cycler('color', ['3C62B3', '13294B', '4B5563', 'CC7318', '2F7D5B', 'B3362F'])
+font.family        : sans-serif
+font.sans-serif    : Manrope, Arial, DejaVu Sans
+font.monospace     : Courier Prime, Consolas, DejaVu Sans Mono
+font.size          : 12
+text.color         : 1A1D23
+axes.titlesize     : 14
+axes.titleweight   : semibold
+axes.titlecolor    : 13294B
+axes.titlelocation : left
+axes.titlepad      : 10
+axes.labelsize     : 12
+axes.labelcolor    : 4B5563
+axes.edgecolor     : D9DCE1
+axes.linewidth     : 0.8
+axes.spines.top    : False
+axes.spines.right  : False
+axes.grid          : True
+axes.grid.axis     : y
+axes.axisbelow     : True
+grid.color         : D9DCE1
+grid.linewidth     : 0.8
+grid.alpha         : 1.0
+xtick.color        : 4B5563
+ytick.color        : 4B5563
+xtick.labelsize    : 11
+ytick.labelsize    : 11
+xtick.direction    : out
+ytick.direction    : out
+lines.linewidth    : 3
+lines.markersize   : 8
+lines.markeredgewidth : 1.5
+lines.markeredgecolor : FFFFFF
+patch.linewidth    : 0
+legend.frameon     : False
+legend.fontsize    : 11
+figure.facecolor   : FFFFFF
+axes.facecolor     : FFFFFF
+savefig.facecolor  : FFFFFF
+legend.labelcolor  : 1A1D23
+figure.figsize     : 6, 3.6
+figure.dpi         : 150
+savefig.dpi        : 200
+savefig.bbox       : tight

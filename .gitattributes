@@ -1,0 +1,6 @@
+# keep the data and generated files byte-identical on every system
+*.csv text eol=lf
+*.ipynb text eol=lf
+*.html text eol=lf
+*.ttf binary
+*.png binary
